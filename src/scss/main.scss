@@ -1,13 +1,30 @@
-@import "~normalize.css";
+// @import "~normalize.css";
 
-@import "_variables";
-@import "modules/hello.scss";
+// @import "_variables";
+// @import "modules/hello.scss";
 
 body {
-  background: $wtf;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin: 0px;
+}
+.app-container {
+  background-color: beige;
   min-height: 100vh;
+  display: grid;
+  grid-template-columns: 450px 1fr 450px;
+}
+.svg-container {
+  display: flex;
+  justify-content: center;
+}
+.face-img {
+  width: 100%;
+  max-width: 800px;
+  min-width: 250px;
+}
+
+.left-form-container {
+  background-color: blueviolet;
+}
+.right-form-container {
+  background-color: brown;
 }
